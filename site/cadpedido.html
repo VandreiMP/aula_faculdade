@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+
+<head>
+	<title>Crimuva</title>
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/styleform.css">
+	<link rel="shortcut icon" href="img/icon.png" sizes="32x32" type="image/png">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+
+<body>
+
+	<header>
+		<nav class="navbar navbar-inverse">
+			<div class="container">
+
+				<div class="navbar-header">
+					<!-- LOGO -->
+					<a href="index.html" alt="Crimuva - home" title="Home"><img id="logo" src="img/logo.png" width="150"></a>
+
+					<!-- SMARTPHONE -->
+					<button type="button" style="margin-top:25px" class="navbar-toggle collapsed" data-toggle="collapse"
+						data-target="#menu_lista" aria-expanded="false">
+						<span style="background-color:#ffffff" class="icon-bar"></span>
+						<span style="background-color:#ffffff" class="icon-bar"></span>
+						<span style="background-color:#ffffff" class="icon-bar"></span>
+					</button>
+
+				</div>
+
+				<div class="collapse navbar-collapse" id="menu_lista">
+					<ul class="nav navbar-nav navbar-right">
+						<li class="link_menu"><a href="?i=Empresa">Sobre</a></li>
+						<li class="link_menu"><a href="?i=navegar">Soluções</a></li>
+						<li class="link_menu"><a href="?i=blast">Diferenciais</a></li>
+						<li class="link_menu"><a href="#help">Ajuda</a></li>
+					</ul>
+				</div>
+
+			</div>
+
+		</nav>
+	</header>
+
+	<div id="main">
+		<div class="container">
+			<div class="row">
+				<div class="col-sm-6 col-md-4">
+				</div>
+
+				<div class="col-sm-6 col-md-4">
+
+					<form class="formulario" method="post">
+						<p>Informe seu CPF, CNPJ ou o Código de Rastreio para acompanhar seu Pedido.</p>
+						
+							<div class="field">
+								<label for="cpf">Seu CPF(*):</label>
+								<input type="text" id="cpf" name="cpf" placeholder="Digite seu CPF" required>
+							</div>
+
+							<div class="field">
+								<label for="cnpj">Seu CNPJ(*):</label>
+								<input type="text" id="cnpj" name="cnpj" placeholder="Digite seu cnpj">
+							</div>
+
+							<div class="field">
+								<label for="codigo">Código de Rastreio(*):</label>
+								<input type="email" id="codigo" name="codigo" placeholder="Digite seu Código de Rastreio" required>
+							</div>
+
+								<div class="field radiobox">
+								<span>Deseja receber nossas novidades?</span>
+								<input type="radio" name="novidades" id="sim" value="sim" checked><label
+									for="sim">Sim</label>
+								<input type="radio" name="novidades" id="nao" value="nao"><label for="nao">Não</label>
+							</div>
+							<div class="field">
+								<label for="mensagem">Deixe uma Sugestão:</label>
+								<textarea name="mensagem" id="mensagem" placeholder="Mensagem*" required></textarea>
+							</div>
+							<p><a href="#" class="btn btn-primary" role="button">Enviar</a> 
+							
+					</form>
+				</div>
+
+				<div class="col-sm-6 col-md-4">
+				</div>
+			</div>
+		</div>
+	</div>
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-2"><a href="index.html"><img id="logo" src="img/logo.png" width="150"></a>
+				</div>
+
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<p>© 2020 Crimuva| Construido por <a href="criadores.html">Cristian Bombazar; Murilo
+							Marcelino; Vandrei Padilha.</a></p>
+				</div>
+			</div>
+		</div>
+		<!-- jQuery -->
+		<script src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</footer>
+</body>
+
+</html>
